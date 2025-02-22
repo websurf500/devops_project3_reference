@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/products_api.jar  /usr/app/
+COPY target/products_api.jar  /usr/app/products_api.jar
 
 WORKDIR /usr/app/
 
